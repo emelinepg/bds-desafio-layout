@@ -13,3 +13,7 @@ a, a:hover {
     text-decoration: none;
     color: unset;
 }
+
+p {
+    line-height: 1.15;
+}
