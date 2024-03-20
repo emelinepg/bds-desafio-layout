@@ -33,6 +33,11 @@
     margin: 0;
 }
 
+.banner-image img {
+    width: 244px;
+    height: 146px;
+}
+
 .card-cta {
     height: 123px;
     background-color: #EDEDED;
@@ -48,4 +53,93 @@
 .card-cta p {
     margin: 0;
     font-size: 18px;
+}
+
+@media (min-width: 576px) {
+    .card-banner {
+        padding: 20px 20px 40px 20px;
+    }
+
+    .banner-image img {
+        width: 333px;
+        height: 199px;
+    }
+
+    .banner-text {
+        width: 437px;
+    }
+    
+    .banner-text h2 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    
+    .banner-text p {
+        font-size: 18px;
+    }
+
+    .card-cta {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 25px 25px 25px 85px;
+    }
+
+    .card-cta p {
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-banner {
+        height: 475px;
+        padding: 80px 20px;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-banner {
+        height: 579px;
+        padding: 80px 20px 120px 20px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .banner-image img {
+        width: 455px;
+        height: 272px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-banner {
+        width: 979px;
+        height: 365px;
+        padding: 80px 60px 80px 60px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .banner-text {
+        width: 420px;
+        text-align: left;
+    }
+
+    .banner-image img {
+        width: 333px;
+        height: 199px;
+    }
+
+    .card-cta {
+        width: 979px;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 25px 25px 25px 85px;
+    }
 }
