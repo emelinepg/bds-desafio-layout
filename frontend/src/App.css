@@ -17,3 +17,9 @@ a, a:hover {
 p {
     line-height: 1.15;
 }
+
+.base-card {
+    background-color: #EDEDED;
+    color: #585858;
+    border-radius: 10px;
+}

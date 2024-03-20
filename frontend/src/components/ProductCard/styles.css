@@ -1,0 +1,86 @@
+.car-card {
+    height: 347px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.car-card button {
+    width: 258px;
+}
+
+.card-text h2 {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-text p {
+    width: 260px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 576px) {
+    .car-card {
+        margin-bottom: 30px;
+    }
+
+    .card-text p {
+        width: 220px;
+        font-size: 12px;
+    }
+
+    .car-card button {
+        width: 220px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .card-text p {
+        font-size: 14px;
+        width: 260px;
+    }
+
+    .car-card button {
+        width: 307px;
+    }
+
+    .text-description {
+        width: 307px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+    .car-card button {
+        width: 258px;
+    }
+
+    .text-description {
+        width: 258px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .car-card {
+        max-width: 306px;
+    }
+
+    .car-card button {
+        width: 266px;
+    }
+
+    .text-description {
+        width: 266px;
+    }
+}

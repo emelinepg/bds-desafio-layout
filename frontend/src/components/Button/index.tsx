@@ -1,10 +1,17 @@
+import React from 'react';
 import './styles.css';
 
-const Button = () => {
+type Props = {
+    btnText : string | JSX.Element | JSX.Element[]
+}
+
+const Button = ({btnText} : Props) => {
 
     return (
-        <button className="btn card-button">Ver catálogo</button>
-    )
+        <button className="btn card-button">
+            {btnText}
+        </button>
+    );
 
 }
 
